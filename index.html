@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+
+<html lang="pt-br"> 
+
+<head>
+	<meta charset="utf-8"/> 
+	<meta name="description" content="Pokestore">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	 
+	<meta name="author" content="Beatriz Miranda">
+
+	<title>Pokestore</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div id="header">
+			<div class="row ">
+				<div class="col-md-12">
+					<nav class="navbar fixed-top bordageral nav_principal">
+						<a class="navbar-brand pokestore" href="index.html"><img src="./src/Logo.png"/></a>
+						<ul class="nav itensmenu">
+						<li class="nav-item">
+							<a class="nav-link" href="#">Entrar</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Cadastre-se</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#carrinho">Carrinho</a>
+						</li>
+						</ul>
+					</nav>
+					
+				</div>
+			</div>
+		</div>
+		<div id="conteudo">
+			<div class="row menubusca bordageral">
+				<div class="col-md-12">
+					<nav>
+						<input type="text" placeholder="Pesquisar por nome" class="border inputtext" id="filter">
+
+					</nav>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-8">
+					<div id="pokemons" class="row card-group linhadocard bordageral">
+					</div>
+
+					<div class="pagination-wrapper">
+						<ul class="pagination"></ul>
+					</div>
+				</div>
+				
+				<div class="col-md-4">
+					<div id="carrinho">
+						<div id="itensCarrinho">
+							<h4 class="text-center">Carrinho</h4>
+							<hr>
+						</div>
+						<div class="text-center">
+							<h4 id="precoTotal" >Total: R$0,00</h4>
+							<button class="btn" id="finalizar">Finalizar</button>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<div class="card-footer text-muted text-center" id="footer">
+        <div class="row" id="icons">
+            
+            <div class="col-10 float-left">
+                <p>2020 © Desenvolvido por <a href="https://www.linkedin.com/in/beatrizadm/" class="text-muted" target="blank">Beatriz Miranda</a></p>
+            </div>
+
+            <div class="col-2 float-right">
+              <a href="https://github.com/beatrizadm" class="col-lg icon" target="_blank">
+                <span class="fa-stack fa-3x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            
+              <a href="http://linkedin.com/in/beatrizadm" class="col-lg icon" target="_blank">
+                <span class="fa-stack fa-3x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </div>
+  
+          
+	    </div>
+
+			
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="js/script.js"></script>
+
+
+</body>
+
+</html>

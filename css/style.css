@@ -1,0 +1,161 @@
+
+.bordageral{
+	padding: 0 5%;
+}
+
+.nav_principal{
+	background-color: #CC0000;
+}
+
+.itensmenu a{
+	color: white;
+}
+
+.itensmenu a:hover{
+	background-color: #3B4CCA;
+	color:  rgb(251, 255, 41);
+	border-radius: 20px;
+}
+
+#conteudo{
+	margin-top: 100px;
+}
+
+.linhadocard{
+	display: flex;
+}
+
+.resultado{
+	width: 90%;
+	margin: auto;
+	height: 100%;
+	box-shadow: 4px 4px 15px #3B4CCA;
+	border-radius: 25px;
+}
+
+.card-img-top{
+	border-radius: 25px 25px 0 0 !important;
+	width: 70%;
+	margin: auto;
+}
+
+.margem_baixo{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.menubusca{
+	margin-bottom: 30px;
+	text-align: center;
+	background-color: rgb(255,255,255);
+}
+
+.menubusca input{
+	padding: 10px;
+	height: 50px;
+	width: 90%;
+	border-radius: 20px;
+}
+
+.menubusca button{
+	border-radius: 20px;
+	background-color: white;
+	height: 45px;
+}
+
+.card-footer a:hover{
+	color: #3B4CCA !important;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.imgredes{
+	width: 40px;
+	border-radius: 50%;
+	margin: 5px;
+}
+
+.pagination{
+	width: 300px;
+	margin: auto;
+    margin-bottom: 30px;
+}
+
+.container_pokemons{
+	width: 75%;
+}
+
+.btn-comprar{
+	border: solid 1px black;
+	width: 100%;
+	background-color: #3B4CCA !important;
+	box-shadow: 1px 1px 5px rgb(168, 168, 159);
+}
+
+#carrinho{
+	width: 90%;
+	border-radius: 25px;
+	border: solid 0.5px;
+	min-height: 100px;
+	padding: 5px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 80px;
+}
+
+.item_carrinho{
+	padding: 0 10px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+.img_item{
+	width: 40px;
+}
+
+.input_item{
+	width: 50px;
+	margin-left: 0;
+}
+
+.preco_item{
+	text-align: right;
+	margin-top: -30px;
+	margin-bottom: -10px;
+}
+
+.btn-remover{
+	color: rgb(202, 0, 0);
+	font-weight: bold;
+	margin-left: 85%;
+	padding: 3px;
+}
+
+#carrinho hr{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#finalizar{
+	width: 90%;
+	margin: auto;
+	background-color: #3B4CCA;
+	border-radius: 20px;
+}
+
+.fa-stack {
+    font-size: 5vh !important;
+    color: black;
+    float:right;
+    padding: 0;
+    margin: 0;
+}
+
+.fa-stack:hover {
+    color:#3B4CCA;
+}
+
+.navbar img {
+    height: 7vh !important;
+}
+
